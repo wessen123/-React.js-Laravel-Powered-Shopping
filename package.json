@@ -4,7 +4,7 @@
   "description": "Building an online shopping website",
   "main": "index.js",
   "repository": "https://github.com/wessen123/-React.js-Laravel-Powered-Shopping.git",
-  "author": "Sonawap <paulsola79.com>",
+  "author": "wessen ",
   "license": "MIT",
   "dependencies": {
     "concurrently": "^8.0.1"
