@@ -25,6 +25,7 @@ const Header = props => {
               >
                 <FontAwesomeIcon icon={faShoppingCart} /> <span className="badge text-bg-secondary">{items.length ?? 0}</span>
               </Link>
+              
             </li>
           </ul>
         </div>

@@ -10,7 +10,7 @@ import useLoading from 'hooks/useLoading';
 const Landing = props => {
   const { title, setCategories, categories } = props;
   const [loading, withLoading] = useLoading();
-
+  console.log(props);
 	useDocumentTitle(title);
 
   const getCategories = async () => {

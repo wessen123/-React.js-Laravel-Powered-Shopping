@@ -3,17 +3,16 @@
   "version": "1.0.0",
   "description": "Building an online shopping website",
   "main": "index.js",
-  "repository": "https://github.com/Sonawap/online-shopping.git",
+  "repository": "https://github.com/wessen123/-React.js-Laravel-Powered-Shopping.git",
   "author": "Sonawap <paulsola79.com>",
   "license": "MIT",
   "dependencies": {
     "concurrently": "^8.0.1"
   },
   "scripts": {
-    "install:app": "concurrently \"cd frontend && yarn\" \"cd backend && composer install\"",
-    "start": "concurrently \"cd frontend && yarn start\" \"cd backend && php artisan serve\"",
-    "start:frontend": "cd frontend && yarn start",
+    "install:app": "concurrently \"cd frontend && npm\" \"cd backend && composer install\"",
+    "start": "concurrently \"cd frontend && npm start\" \"cd backend && php artisan serve\"",
+    "start:frontend": "cd frontend && npm start",
     "start:backend": "cd backend && php artisan serve"
   }
-
 }
