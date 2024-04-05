@@ -19,18 +19,28 @@ const Header = props => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
+            <Link className="navbar-brand" to="/dashboard">Dashboard</Link>
+              
+            </li>
+        
+         
+            <li className="nav-item">
               <Link 
                 className="nav-link" 
                 to="/cart"
               >
                 <FontAwesomeIcon icon={faShoppingCart} /> <span className="badge text-bg-secondary">{items.length ?? 0}</span>
               </Link>
+
               
             </li>
+            
           </ul>
+         
         </div>
       </div>
     </nav>
+    
   )
 
   };

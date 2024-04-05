@@ -8,6 +8,7 @@ import PaymentSuccess from './Cart/Payment/successful';
 import PaymentCancel from './Cart/Payment/cancel';
 import Product from './Product';
 import Category from './Category';
+import Dashboard from './Dashboard';
 
 const Views = () => {
   return (
@@ -18,6 +19,10 @@ const Views = () => {
           <Route
             path="/"
             element={<Landing title="Landing Page"/>}
+          />
+          <Route
+            path="/dashboard"
+            element={<Dashboard title="Dashboard"/>}
           />
           <Route
             path="/cart"
